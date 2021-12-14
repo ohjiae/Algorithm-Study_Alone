@@ -30,7 +30,7 @@ class Solution:
                      
 <br>                     
 제 코드는 최소값(주식을 살 가격)을 찾고 그 전의 모든 가격은 지워버리는 식이었습니다.<br>
-그랬더니 테스트케이스가 ```prices = [1, 2, 0]``` 일 때, <br>
+그랬더니 테스트케이스가 prices = [1, 2, 0] 일 때, <br>
 1에서 사고 2에서 팔아 얻을 수 있는 1도 얻지 못하고 0 이전의 원소들을 다 지워버려서 문제가 생겼습니다.<br>
 
 <p>
@@ -43,7 +43,7 @@ class Solution:
 
 
 그래서 오늘은 Kadane's Algorithm에 대해 공부하고 TIL을 업로드하겠습니다! 
-<p>
+
 **[Kadane's Algorithm 에 관한 TIL 바로가기]()**
 
 3. Consecutive Ones<br>
