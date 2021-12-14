@@ -10,6 +10,8 @@ Binary search 사이트를 활용했으며, 시간 내에 4가지 문제를 푸�
 <p>
 1. Wolf of Wall street <br>
 - 내 코드<br>
+    
+    
 ```python
 class Solution:
     def solve(self, prices):
@@ -24,8 +26,9 @@ class Solution:
             return(sell-buy)
         else :
             return(0)
-
 ```
+                     
+<br>                     
 제 코드는 최소값(주식을 살 가격)을 찾고 그 전의 모든 가격은 지워버리는 식이었습니다.<br>
 그랬더니 테스트케이스가 ```prices = [1, 2, 0]``` 일 때, <br>
 1에서 사고 2에서 팔아 얻을 수 있는 1도 얻지 못하고 0 이전의 원소들을 다 지워버려서 문제가 생겼습니다.<br>
