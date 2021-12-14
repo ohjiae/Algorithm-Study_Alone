@@ -2,13 +2,12 @@
 Binary search 사이트를 활용했으며, 시간 내에 4가지 문제를 푸는 스터디입니다.<br>
 (여담으로 이 사이트 너무 좋아요... 보여진 테스트 케이스 외에 여러 가지 극한의 테스트 케이스도 주어져서, 어떤 상황에서도 작동이 되야만 정답이 됩니다)<br>
 
-> **오늘 진행한 문제**
-1. [Wolf of Wall street](https://binarysearch.com/problems/Wolf-of-Wall-Street)
-2. [Shortest Sublist With Max Frequency](https://binarysearch.com/problems/Shortest-Sublist-With-Max-Frequency)
-3. [Consecutive Ones](https://binarysearch.com/problems/Consecutive-Ones)
-4. [Mutual Followers](https://binarysearch.com/problems/Mutual-Followers)
+> **오늘 진행한 문제**<br>1. [Wolf of Wall street](https://binarysearch.com/problems/Wolf-of-Wall-Street)
+<br>2. [Shortest Sublist With Max Frequency](https://binarysearch.com/problems/Shortest-Sublist-With-Max-Frequency)
+<br>3. [Consecutive Ones](https://binarysearch.com/problems/Consecutive-Ones)
+<br>4. [Mutual Followers](https://binarysearch.com/problems/Mutual-Followers)
 
-
+<p>
 1. Wolf of Wall street 
 - 내 코드
 ```python
