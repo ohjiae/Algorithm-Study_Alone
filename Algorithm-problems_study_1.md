@@ -56,26 +56,27 @@ class Solution:
             if nums[i] == 1 :
                 ones.append(1)
             else : ones.append(0) #1과 1이 아닌 수로 구분
-        if len(nums)>1 : 
-            while ones[0] == 0 : 
+        if len(nums)>1 : # 원소가 1개 이상일 때 / 아래조건: 하나 일 때
+            while ones[0] == 0 : #앞의 0제거
                 del ones[0]
-            while ones[-1] == 0 : 
+            while ones[-1] == 0 : #뒤의 0제거
                 del ones[-1]
+            # 시퀀스 분리
             ones = ''.join(list(map(str,ones))).split('0')
             max_i = []
             max_len = len(max(ones,key = len))
-            if len(ones) == 1 : 
+            if len(ones) == 1 : # 유일한 시퀀스
                 return(True)
-            else : 
+            else : # 시퀀스 여러개
                 for i in range(len(ones)):
                     if int(len(ones[i])) == max_len:
-                        max_i.append(ones[i])
+                        max_i.append(ones[i]) #시퀀스 중 길이 최대인 것만 추가
                 return(False)
 
         elif nums[0] == 1 : # 그 하나가 1일 때
             return(True)
         else : #그 하나가 1 아닐 때   
-            return(False)       
+            return(False)     
 
 ```
 
