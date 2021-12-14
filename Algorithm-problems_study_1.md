@@ -8,8 +8,8 @@ Binary search 사이트를 활용했으며, 시간 내에 4가지 문제를 푸�
 <br>4. [Mutual Followers](https://binarysearch.com/problems/Mutual-Followers)
 
 <p>
-1. Wolf of Wall street 
-- 내 코드
+1. Wolf of Wall street <br>
+- 내 코드<br>
 ```python
 class Solution:
     def solve(self, prices):
