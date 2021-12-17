@@ -1,9 +1,9 @@
 # 2회차
-> **문제**
-1.[Detect the Only Duplicate in a List](https://binarysearch.com/problems/Detect-the-Only-Duplicate-in-a-List)
-2.[Median Minimization](https://binarysearch.com/problems/Median-Minimization)
-3.[Buying Cars](https://binarysearch.com/problems/Buying-Cars)
-4.[Max Product of Three Numbers](https://binarysearch.com/problems/Max-Product-of-Three-Numbers)
+> **문제**<br>
+1.[Detect the Only Duplicate in a List](https://binarysearch.com/problems/Detect-the-Only-Duplicate-in-a-List)<br>
+2.[Median Minimization](https://binarysearch.com/problems/Median-Minimization)<br>
+3.[Buying Cars](https://binarysearch.com/problems/Buying-Cars)<br>
+4.[Max Product of Three Numbers](https://binarysearch.com/problems/Max-Product-of-Three-Numbers)<br>
 
 ## 1. Detect the Only Duplicate in a List
 
