@@ -1,6 +1,5 @@
 # [3673번 : 셀프넘버](https://www.acmicpc.net/problem/3673)
 # 🙋‍♀️ 내 코드
-
 def d(n):
     num = n + sum(map(int,str(n)))
     return num
