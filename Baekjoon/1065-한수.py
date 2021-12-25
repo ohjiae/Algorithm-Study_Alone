@@ -1,5 +1,6 @@
 # [1065번 : 한수](https://www.acmicpc.net/problem/1065)
 # 🙋‍♀️ 내 코드
+
 n = int(input())
 cnt = 99
 if n < 100:
