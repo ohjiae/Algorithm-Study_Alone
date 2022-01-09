@@ -1,4 +1,4 @@
-# 문제 출처 : 백준 10798번 문제 [링크](https://www.acmicpc.net/problem/10798)
+# [10798번 : 세로 읽기](https://www.acmicpc.net/problem/10798)
     
   
 import sys
