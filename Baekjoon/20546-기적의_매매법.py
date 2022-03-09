@@ -7,6 +7,7 @@ def BNP(m,p):
             s += m//p[i]
             m = m%p[i]
     return p[-1]*s+m
+
 def T(m,p):
     s = 0
     for i in range(3,len(p)):
@@ -17,6 +18,7 @@ def T(m,p):
             m += s*p[i]
             s = 0 
     return p[-1]*s+m
+
 if BNP(m,p)>T(m,p): print('BNP')
 elif BNP(m,p)<T(m,p): print('TIMING')
 else: print('SAMESAME')
