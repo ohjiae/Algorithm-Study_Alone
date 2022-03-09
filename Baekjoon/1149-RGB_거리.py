@@ -4,7 +4,6 @@
 #sys_input = sys.stdin.readline
 num = int(input())
 house = [list(map(int, input().split())) for _ in range(num)]
-
 result = [[0]*3 for _ in range(num)]
 # 첫번째 집 R,G,B
 for k in range(3):
